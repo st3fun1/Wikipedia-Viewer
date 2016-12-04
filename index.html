@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wikipedia Viewer</title>
+   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"/>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles/main.css"/> 
+  <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+<body>
+
+
+  <div class="container-fluid">
+        <div class="row search-area">
+            
+            <div class="col-xs-12 text-center">
+                <button class="icon"><i class="glyphicon glyphicon-search"></i></button>
+                <input type="search" name="search" class="search-box" results>
+                <input type="button" name="button" class="clear-input-button" value="X">
+                <p><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Article</a>
+            </div>
+            
+        </div>
+      
+      
+        <div class="row results text-center">
+        </div>
+  </div>
+    
+  <script src="jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
+  <script src="scripts/app.js"></script>
+    
+</body>
+</html>
